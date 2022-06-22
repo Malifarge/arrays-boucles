@@ -27,3 +27,14 @@ console.log(objects);
 const numbers = [4, 10, 8, 12, 6]
 numbers.reverse()
 console.log(numbers);
+
+// 05 - Boucle
+
+let total = 0
+const limite = 10
+
+for (let i=0; i <= limite ; i++){
+    total += i
+}
+
+console.log(total);
