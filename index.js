@@ -67,3 +67,19 @@ for (let i = 0; i <= 100; i++){
         console.log(i);
     }
 }
+
+// 08 - While
+
+total = 0
+let sup = 0
+
+while (sup <= limite){
+    total += sup
+    sup++   
+    
+}
+
+console.log(total);
+
+
+
