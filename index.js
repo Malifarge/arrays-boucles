@@ -92,7 +92,6 @@ console.log(camarade[random]);
 // 10 - Random and max
 
 const array = []
-let random100 = Math.floor(Math.random()*101)
 
 for (let i = 0; i < 20; i++){
     let random100 = Math.floor(Math.random()*101)
