@@ -88,3 +88,24 @@ const camarade = ["Mago", "Walid 1", "Walid 2", "Adrien", "Wade", "Danh"]
 const random = Math.floor(Math.random()*camarade.length)
 
 console.log(camarade[random]);
+
+// 10 - Random and max
+
+const array = []
+let random100 = Math.floor(Math.random()*101)
+
+for (let i = 0; i < 20; i++){
+    let random100 = Math.floor(Math.random()*101)
+    array.push(random100)
+}
+
+console.log(array);
+let max = array[0]
+
+for (let i=0; i<20; i++){
+    if (array[i] > max){
+        max = array[i]
+    }
+}
+
+console.log(max);
