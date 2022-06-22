@@ -81,5 +81,10 @@ while (sup <= limite){
 
 console.log(total);
 
+//  09 - Sans boucle
 
+const camarade = ["Mago", "Walid 1", "Walid 2", "Adrien", "Wade", "Danh"]
 
+const random = Math.floor(Math.random()*camarade.length)
+
+console.log(camarade[random]);
