@@ -21,3 +21,9 @@ objects.push("laptop")
 console.log(objects);
 objects.shift();
 console.log(objects);
+
+// 04 - Order
+
+const numbers = [4, 10, 8, 12, 6]
+numbers.reverse()
+console.log(numbers);
