@@ -46,8 +46,24 @@ const arraysentence = sentence.split("")
 const sentencearray = []
 
 for (let i = 0; i < sentence.length; i++) {
-    
+
     sentencearray.unshift(arraysentence[i])
 }
 
 console.log(sentencearray.join(""));
+
+// 07 - Fizzbuzz
+
+for (let i = 0; i <= 100; i++){
+    if (i%7 === 0){
+        console.log("");
+    }else if (i%3 === 0 && i%5 === 0){
+        console.log("fizzbuzz");
+    }else if (i%3 === 0){
+        console.log("fizz");
+    }else if (i%5 === 0){
+        console.log("buzz");
+    }else{
+        console.log(i);
+    }
+}
