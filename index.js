@@ -108,3 +108,20 @@ for (let i=0; i<20; i++){
 }
 
 console.log(max);
+
+// const array = []
+// let max = 0
+
+// for (let i = 0; i < 20; i++){
+
+//     let random100 = Math.floor(Math.random()*101)
+//     array[i]=random100
+
+//     if (array[i] > max){
+//         max = array[i]
+//     }
+// }
+
+// console.log(array);
+// console.log(max);
+
