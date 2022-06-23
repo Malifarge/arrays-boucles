@@ -42,15 +42,24 @@ console.log(total);
 // 06 - Reverse
 
 const sentence = "Hello Konexio !"
-const arraySentence = sentence.split("")
-const sentencearray = []
+// const arraySentence = sentence.split("")
+// const sentencearray = []
 
-for (let i = 0; i < sentence.length; i++) {
+// for (let i = 0; i < sentence.length; i++) {
 
-    sentencearray.unshift(arraySentence[i])
+//     sentencearray.unshift(arraySentence[i])
+// }
+
+// console.log(sentencearray.join(""));   methode split complexe
+
+let reverseSentence = ""
+
+for (let i = sentence.length; i >= 0; i--){
+    reverseSentence= reverseSentence + sentence.charAt(i);
 }
 
-console.log(sentencearray.join(""));
+console.log(reverseSentence);
+
 
 // 07 - Fizzbuzz
 
