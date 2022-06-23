@@ -55,7 +55,7 @@ const sentence = "Hello Konexio !"
 let reverseSentence = ""
 
 for (let i = sentence.length; i >= 0; i--){
-    reverseSentence= reverseSentence + sentence.charAt(i);
+    reverseSentence += sentence.charAt(i);
 }
 
 console.log(reverseSentence);
