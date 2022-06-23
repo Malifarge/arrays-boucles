@@ -42,12 +42,12 @@ console.log(total);
 // 06 - Reverse
 
 const sentence = "Hello Konexio !"
-const arraysentence = sentence.split("")
+const arraySentence = sentence.split("")
 const sentencearray = []
 
 for (let i = 0; i < sentence.length; i++) {
 
-    sentencearray.unshift(arraysentence[i])
+    sentencearray.unshift(arraySentence[i])
 }
 
 console.log(sentencearray.join(""));
