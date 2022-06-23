@@ -12,15 +12,15 @@ console.log(ingrédients.indexOf("butter"));
 
 // 03 - Add and Remove
 
-const objects = ["pen", "book","lamp"]
-objects.unshift("chair")
-console.log(objects);
-objects.pop()
-console.log(objects);
-objects.push("laptop")
-console.log(objects);
-objects.shift();
-console.log(objects);
+const things = ["pen", "book","lamp"]
+things.unshift("chair")
+console.log(things);
+things.pop()
+console.log(things);
+things.push("laptop")
+console.log(things);
+things.shift();
+console.log(things);
 
 // 04 - Order
 
